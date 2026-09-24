@@ -9,10 +9,10 @@ jobs:
   test:
      runs-on:
      steps:
-       -name: test-phase
+       - name: test-phase
          run: echo "running test cases...."
   deploy:
     runs-on:
     steps:
-      -name: deploy the app
-       run: echo "app deployed"
+      - name: deploy the app
+        run: echo "app deployed"
